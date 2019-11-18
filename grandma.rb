@@ -14,6 +14,8 @@ def speak_to_grandma(phrase)
     return 'HUH?! SPEAK UP, SONNY!'
   elsif phrse.upcase 
      return 'NO, NOT SINCE 1938!'
+  elsif phrase == "I LOVE YOU GRANDMA!"
+    return 
   end
 end 
 # Whatever you say to grandma, she should respond with
